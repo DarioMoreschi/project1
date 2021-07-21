@@ -1,0 +1,63 @@
+*{
+box-sizing: border-box;
+font-family: "montserrat, arial"
+}
+
+body{
+background-image: url(background.jpg);
+background-size: 100%;
+margin-top: 50px;
+}
+
+.rettangolo{
+  margin: auto;
+  width: 75%; height: 75%;
+  padding-left: 100px; padding-right: 100px; padding-top: 100px; padding-bottom: 100px;
+  background: black; opacity: 0.7;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.navigazione{
+  background: #00DD00;
+  padding: 15px;
+}
+
+.scritte{
+  width: 50%;
+  text-align: left; font-size: 25px; color: white;
+  margin-top: 20px;
+}
+
+.sottotitoli{
+  font-size: 17px;
+}
+
+.scritte .arrow:before{
+  content: "\21A6";
+}
+
+.carica1{
+  width: 350px;
+  height: 30px;
+  background: #F5B453;
+  border-radius: 10px 10px 10px 10px;
+}
+.carica2{
+  width: 600px;
+  height: 30px;
+  background: #1EC31F;
+  border-radius: 10px 10px 10px 10px;
+}
+.carica3{
+  width: 175px;
+  height: 30px;
+  background: #BE4141;
+  border-radius: 10px 10px 10px 10px;
+}
+
+#logo{
+  width: 25%;
+}
+#scritta-logo{
+  font-size: 30px; color: #00DD00;
+}
